@@ -1,0 +1,35 @@
+{
+  "name": "reason-browser-persist",
+  "version": "1.0.0",
+  "description": "A library for storing things in the browser from ReasonML",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloom/reason-browser-persist.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "localforage",
+    "reasonml",
+    "indexeddb",
+    "storage",
+    "localstorage"
+  ],
+  "author": "Murphy Randle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloom/reason-browser-persist/issues"
+  },
+  "homepage": "https://github.com/bloom/reason-browser-persist#readme",
+  "devDependencies": {
+    "bs-platform": "^2.1.0"
+  },
+  "dependencies": {
+    "bs-json": "^1.0.1",
+    "localforage": "^1.5.6"
+  }
+}
