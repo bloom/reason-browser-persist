@@ -1,6 +1,6 @@
 {
   "name": "reason-browser-persist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for storing things in the browser from ReasonML",
   "main": "src/index.js",
   "scripts": {
