@@ -1,4 +1,4 @@
-# re-localforage
+# reason-browser-persist
 
 ```
 npm install --save-dev reason-browser-persist
