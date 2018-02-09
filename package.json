@@ -29,7 +29,6 @@
     "bs-platform": "^2.1.0"
   },
   "dependencies": {
-    "bs-json": "^1.0.1",
-    "localforage": "^1.5.6"
+    "bs-json": "^1.0.1"
   }
 }

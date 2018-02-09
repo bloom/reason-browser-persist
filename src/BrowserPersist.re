@@ -2,13 +2,14 @@ type promise('a) = Js.Promise.t('a);
 
 type json = Js.Json.t;
 
-[@bs.module "localforage"] external setItem_ : (string, 'a) => promise(unit) = "setItem";
+[@bs.module "./vendor/localforage.js"] external setItem_ : (string, 'a) => promise(unit) =
+  "setItem";
 
 let setItemRaw = (~key, value) => setItem_(key, value);
 
 let setItem = (~encoder, ~key, value) => value |> encoder |> setItem_(key);
 
-[@bs.module "localforage"] external getItem_ : string => promise(json) = "getItem";
+[@bs.module "./vendor/localforage.js"] external getItem_ : string => promise(json) = "getItem";
 
 let getItemRaw = (key) => getItem_(key);
 
